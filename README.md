@@ -87,4 +87,6 @@ Please click on https://github.com/youfou/wxpy to visit its official Github webp
 ## Instruction  
 To run the program on wechat, please follow the following instructions:
 1. Downdoal all the files in the `Final_Project`
-2. Run the 
+2. Run the `Chatbot_for_stockmarket (Final).py` on any python IDE  
+*`Spyder` is recommended, or you can use `Jupyter` to test the program in seperate blocks*  
+3.
