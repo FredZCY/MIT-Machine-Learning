@@ -54,16 +54,29 @@ pip3 install iexfinance
 An IEX Cloud account is required to acecss the IEX Cloud API. Various plans are availalbe, free, paid, and pay-as-you-go.  
 Your IEX Cloud (secret) authentication token can be passed to any function or at the instantiation of a `Stock` object. The easiest way to store a token is in the `IEX_TOKEN` environment variable.  
 
-**Real-time Quotes**  
+***Real-time Quotes***  
 To obtain real-time quotes for one or more symbols, use the `get_price` method of the `Stock` object:  
 ```
 from iexfinance.stocks import Stock  
 tsla = Stock('TSLA')  
 tsla.get_price()  
 ```
-**Historical Data**  
+***Historical Data***  
 It’s possible to obtain historical data using `get_historical_data` and `get_historical_intraday`.
 
-**For more installation information**  
+**For more installation information of iexfinance**  
 Please click on https://github.com/addisonlynch/iexfinance  
+**For more information about iexfinance**  
+Please click on https://pypi.org/project/iexfinance/  
+
+### wxpy  
+The wxpy is a python module and it was a updated version of itchat. By installing it, many functions related to Wechat APP such as sending messages or pictures, automatically replying messages of various types can be achieved.  
+
+Using pip to install iexfinance via Python Library From pypi (latest stable release): 
+```
+pip install -U wxpy
+```
+**For more information about wxpy**  
+Please click on https://github.com/youfou/wxpy to visit its official Github webpage
+
 
