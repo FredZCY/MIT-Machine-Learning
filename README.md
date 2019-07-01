@@ -1,7 +1,7 @@
 # Chatbot for Stock Information Queries
 In this project, a basic chatbot for stock information queries was built by using the AI (Artificial Intelligence), NLP (Natural Language Processing) knowledge. The program were firstly constructed and run using python on JupyterLab during to its aesthetic and interactivity, then it was completed, perfected on Spyder and the final step was to test its performance on Wechat. Several methods and algorithms including those obtained from extension python modules were used to build the main framework.
 ## Packages Installation
-### Rasa NLU
+### - [ ] Rasa NLU
 Rasa is an open source machine learning framework to automate text-and voice-based conversations. With Rasa, you can build chatbots on:
 - Facebook Messenger
 - Slack
@@ -68,6 +68,7 @@ It’s possible to obtain historical data using `get_historical_data` and `get_h
 
 **For more installation information of iexfinance**  
 Please click on https://github.com/addisonlynch/iexfinance  
+
 **For more information about iexfinance**  
 Please click on https://pypi.org/project/iexfinance/  
 
