@@ -61,5 +61,9 @@ from iexfinance.stocks import Stock
 tsla = Stock('TSLA')  
 tsla.get_price()  
 ```
-**Historical Data** 
+**Historical Data**  
 It’s possible to obtain historical data using `get_historical_data` and `get_historical_intraday`.
+
+**For more installation information**  
+Please click on https://github.com/addisonlynch/iexfinance  
+
