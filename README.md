@@ -34,14 +34,14 @@ Please click on https://rasa.com/docs/nlu/installation/
 
 ### iexfinance
 The iexfinance is a Python module help you get data for Stocks, ETFs, Mutual Funds, Forex/Currencies, Options, Commodities, Bonds, and Cryptocurrencies from IEX Cloud and IEX API:
-Real-time and delayed quotes
-Historical data (daily and minutely)
-Financial statements (Balance Sheet, Income Statement, Cash Flow)
-End of Day Options Prices
-Institutional and Fund ownership
-Analyst estimates, Price targets
-Corporate actions (Dividends, Splits)
-Sector performance
-Market analysis (gainers, losers, volume, etc.)
-IEX market data & statistics (IEX supported/listed symbols, volume, etc)
-Social Sentiment and CEO Compensation
+- Real-time and delayed quotes
+- Historical data (daily and minutely)
+- Financial statements (Balance Sheet, Income Statement, Cash Flow)
+- End of Day Options Prices
+- Institutional and Fund ownership
+- Analyst estimates, Price targets
+- Corporate actions (Dividends, Splits)
+- Sector performance
+- Market analysis (gainers, losers, volume, etc.)
+- IEX market data & statistics (IEX supported/listed symbols, volume, etc)
+- Social Sentiment and CEO Compensation
