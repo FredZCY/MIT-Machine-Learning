@@ -92,7 +92,7 @@ To run the program on wechat, please follow the following instructions:
 *`Spyder` is recommended, or you can use `Jupyter` to test the program in seperate blocks*  
 
 3. Part of codes about `wechat friend searching` may need to be specified by yourself  
-4. Scan the generated QR code and start to chat with the Chatbot: simple_smile:  
+4. Scan the generated QR code and start to chat with the Chatbot :simple_smile:  
 
 ## Contact the Author  
 
