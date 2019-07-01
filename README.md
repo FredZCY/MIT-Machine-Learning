@@ -32,6 +32,8 @@ pip install rasa_nlu
 **For more installation information of Rasa NLU**  
 Please click on https://rasa.com/docs/nlu/installation/  
 
+
+
 ### iexfinance
 The iexfinance is a Python module help you get data for Stocks, ETFs, Mutual Funds, Forex/Currencies, Options, Commodities, Bonds, and Cryptocurrencies from IEX Cloud and IEX API:
 - Real-time and delayed quotes
@@ -69,14 +71,19 @@ Please click on https://github.com/addisonlynch/iexfinance
 **For more information about iexfinance**  
 Please click on https://pypi.org/project/iexfinance/  
 
+
+
 ### wxpy  
 The wxpy is a python module and it was a updated version of itchat. By installing it, many functions related to Wechat APP such as sending messages or pictures, automatically replying messages of various types can be achieved.  
 
-Using pip to install iexfinance via Python Library From pypi (latest stable release): 
+Using pip to install wxpy via Python Library From pypi (latest stable release): 
 ```
 pip install -U wxpy
 ```
 **For more information about wxpy**  
 Please click on https://github.com/youfou/wxpy to visit its official Github webpage
 
-
+## Instruction  
+To run the program on wechat, please follow the following instructions:
+1. Downdoal all the files in the `Final_Project`
+2. Run the 
