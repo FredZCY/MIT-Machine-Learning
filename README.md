@@ -30,7 +30,7 @@ Using pip to install Rasa NLU via Python Library From pypi:
 pip install rasa_nlu
 ```
 **For more installation information of Rasa NLU**  
-Please click on https://rasa.com/docs/nlu/installation/  
+Please click on https://rasa.com/docs/rasa/user-guide/installation/ 
 
 
 
@@ -92,6 +92,10 @@ To run the program on wechat, please follow the following instructions:
 *`Spyder` is recommended, or you can use `Jupyter` to test the program in seperate blocks*  
 
 3. Part of codes about `wechat friend searching` may need to be specified by yourself  
+```python
+# Search the specified Wechat account
+my_friend = bot.friends().search('Stockbot Coco')[0]
+```
 4. Scan the generated QR code and start to chat with the Chatbot:relaxed:  
 
 ## Contact the Author  
