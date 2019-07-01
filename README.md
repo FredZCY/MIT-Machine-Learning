@@ -10,12 +10,12 @@ Rasa is an open source machine learning framework to automate text-and voice-bas
 - Mattermost
 - Telegram
 - Twilio
-- Your own custom conversational channels
-And Rasa NLU (Natural Language Understanding) is a tool for understanding what is being said in short pieces of text.
-For example, taking a short message like:
+- Your own custom conversational channels  
+And Rasa NLU (Natural Language Understanding) is a tool for understanding what is being said in short pieces of text.  
+For example, taking a short message like:  
   *"I'm looking for a Mexican restaurant in the center of town"*
-And returning structured data like:
-  *intent: search_restaurant*
-  *entities:*
-    *- cuisine : Mexican*
-    *- location : center*
+And returning structured data like:  
+  *intent: search_restaurant*  
+  *entities:*  
+    *- cuisine : Mexican*  
+    *- location : center*  
