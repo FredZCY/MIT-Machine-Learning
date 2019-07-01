@@ -1,0 +1,607 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "FB",
+        "synonyms": ["Facebook", "facebook", "FACEBOOK", "FaceBook", "Facebok"]
+      },
+      {
+        "value": "BABA",
+        "synonyms": ["Alibaba", "ALIBABA", "alibaba", "ALI", "ali", "Ali"]
+      },
+      {
+        "value": "NFLX",
+        "synonyms": ["Netflix", "NETFLIX", "netflix"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "What can you do",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "Who are you",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "what information do you have",
+        "intent": "intro",
+        "entities": []
+      },
+      {
+        "text": "I need the current price of Alibaba",
+        "intent": "current_price",
+        "entities": [
+          {
+            "start":28,
+            "end":35,
+            "value":"BABA",
+            "entity":"company"
+          }
+        ]
+      },
+      {
+        "text": "Please tell me the current price of ALIBABA",
+        "intent": "current_price",
+        "entities": [
+          {
+            "start":36,
+            "end":43,
+            "value":"BABA",
+            "entity":"company"
+          }
+        ]
+      },
+      {
+        "text": "What about showing me the current price of Facebook",
+        "intent": "current_price",
+        "entities": [
+          {
+            "start":43,
+            "end":51,
+            "value":"FB",
+            "entity":"company"
+          }
+        ]
+      },
+      {
+        "text": "And what about Nike",
+        "intent": "current_price",
+        "entities": [
+          {
+            "start":15,
+            "end":19,
+            "value":"NKE",
+            "entity":"company"
+          }
+        ]
+      },
+      {
+        "text": "Now please tell me the current price of Apple",
+        "intent": "current_price",
+        "entities": [
+          {
+            "start":40,
+            "end":45,
+            "value":"AAPL",
+            "entity":"company"
+          }
+        ]
+      },
+      {
+        "text": "Show the close price of FACEBOOK on 2018-07-08",
+        "intent": "history_data_close",
+        "entities": [
+          {
+            "start":24,
+            "end":32,
+            "value":"FB",
+            "entity":"company"
+          },
+          {
+              "start":9,
+              "end":14,
+              "value":"close",
+              "entity":"type"
+          },
+          {
+              "start":45,
+              "end":47,
+              "value":"08",
+              "entity":"day"
+          },
+          {
+              "start":42,
+              "end":44,
+              "value":"07",
+              "entity":"month"
+          },
+          {
+              "start":37,
+              "end":41,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the close price of Netflix on 2018-05-15",
+        "intent": "history_data_close",
+        "entities": [
+          {
+            "start":27,
+            "end":34,
+            "value":"NFLX",
+            "entity":"company"
+          },
+          {
+              "start":12,
+              "end":17,
+              "value":"close",
+              "entity":"type"
+          },
+          {
+              "start":46,
+              "end":48,
+              "value":"15",
+              "entity":"day"
+          },
+          {
+              "start":43,
+              "end":45,
+              "value":"05",
+              "entity":"month"
+          },
+          {
+              "start":38,
+              "end":42,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Please show me the close price of Nike on 2019-05-21",
+        "intent": "history_data_close",
+        "entities": [
+          {
+            "start":34,
+            "end":38,
+            "value":"NKE",
+            "entity":"company"
+          },
+          {
+              "start":19,
+              "end":24,
+              "value":"close",
+              "entity":"type"
+          },
+          {
+              "start":50,
+              "end":52,
+              "value":"21",
+              "entity":"day"
+          },
+          {
+              "start":47,
+              "end":49,
+              "value":"05",
+              "entity":"month"
+          },
+          {
+              "start":42,
+              "end":46,
+              "value":"2019",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "What about the close price of Alibaba on 2019-02-01",
+        "intent": "history_data_close",
+        "entities": [
+          {
+            "start":30,
+            "end":37,
+            "value":"BABA",
+            "entity":"company"
+          },
+          {
+              "start":15,
+              "end":20,
+              "value":"close",
+              "entity":"type"
+          },
+          {
+              "start":49,
+              "end":51,
+              "value":"01",
+              "entity":"day"
+          },
+          {
+              "start":46,
+              "end":48,
+              "value":"02",
+              "entity":"month"
+          },
+          {
+              "start":41,
+              "end":45,
+              "value":"2019",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the open price of Netflix on 2019-03-04",
+        "intent": "history_data_open",
+        "entities": [
+          {
+            "start":26,
+            "end":33,
+            "value":"NFLX",
+            "entity":"company"
+          },
+          {
+              "start":12,
+              "end":16,
+              "value":"open",
+              "entity":"type"
+          },
+          {
+              "start":45,
+              "end":47,
+              "value":"04",
+              "entity":"day"
+          },
+          {
+              "start":42,
+              "end":44,
+              "value":"03",
+              "entity":"month"
+          },
+          {
+              "start":37,
+              "end":41,
+              "value":"2019",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "And what about the open price of Facebook on 2019-05-05",
+        "intent": "history_data_open",
+        "entities": [
+          {
+            "start":33,
+            "end":41,
+            "value":"FB",
+            "entity":"company"
+          },
+          {
+              "start":19,
+              "end":23,
+              "value":"open",
+              "entity":"type"
+          },
+          {
+              "start":53,
+              "end":55,
+              "value":"05",
+              "entity":"day"
+          },
+          {
+              "start":50,
+              "end":52,
+              "value":"05",
+              "entity":"month"
+          },
+          {
+              "start":45,
+              "end":49,
+              "value":"2019",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the open price of Alibaba on 2018-05-07",
+        "intent": "history_data_open",
+        "entities": [
+          {
+            "start":26,
+            "end":33,
+            "value":"BABA",
+            "entity":"company"
+          },
+          {
+              "start":12,
+              "end":16,
+              "value":"open",
+              "entity":"type"
+          },
+          {
+              "start":45,
+              "end":47,
+              "value":"07",
+              "entity":"day"
+          },
+          {
+              "start":42,
+              "end":44,
+              "value":"05",
+              "entity":"month"
+          },
+          {
+              "start":37,
+              "end":41,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the open price of Google on 2018-10-25",
+        "intent": "history_data_open",
+        "entities": [
+          {
+            "start":26,
+            "end":32,
+            "value":"GOOG",
+            "entity":"company"
+          },
+          {
+              "start":12,
+              "end":16,
+              "value":"open",
+              "entity":"type"
+          },
+          {
+              "start":44,
+              "end":46,
+              "value":"25",
+              "entity":"day"
+          },
+          {
+              "start":41,
+              "end":43,
+              "value":"10",
+              "entity":"month"
+          },
+          {
+              "start":36,
+              "end":40,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "What about the JD's volume on 2019-01-01",
+        "intent": "history_data_volume",
+        "entities": [
+          {
+            "start":15,
+            "end":17,
+            "value":"JD",
+            "entity":"company"
+          },
+          {
+              "start":20,
+              "end":26,
+              "value":"volume",
+              "entity":"type"
+          },
+          {
+              "start":38,
+              "end":40,
+              "value":"01",
+              "entity":"day"
+          },
+          {
+              "start":35,
+              "end":37,
+              "value":"01",
+              "entity":"month"
+          },
+          {
+              "start":30,
+              "end":34,
+              "value":"2019",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Now tell me the volume of Alibaba on 2018-09-23",
+        "intent": "history_data_volume",
+        "entities": [
+          {
+            "start":26,
+            "end":33,
+            "value":"BABA",
+            "entity":"company"
+          },
+          {
+              "start":16,
+              "end":22,
+              "value":"volume",
+              "entity":"type"
+          },
+          {
+              "start":45,
+              "end":47,
+              "value":"23",
+              "entity":"day"
+          },
+          {
+              "start":42,
+              "end":44,
+              "value":"09",
+              "entity":"month"
+          },
+          {
+              "start":37,
+              "end":41,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "What about the volume of Nike on 2018-12-05",
+        "intent": "history_data_volume",
+        "entities": [
+          {
+            "start":25,
+            "end":29,
+            "value":"NKE",
+            "entity":"company"
+          },
+          {
+              "start":15,
+              "end":21,
+              "value":"volume",
+              "entity":"type"
+          },
+          {
+              "start":41,
+              "end":43,
+              "value":"05",
+              "entity":"day"
+          },
+          {
+              "start":38,
+              "end":40,
+              "value":"12",
+              "entity":"month"
+          },
+          {
+              "start":33,
+              "end":37,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "Show me the volume of Apple on 2018-08-03",
+        "intent": "history_data_volume",
+        "entities": [
+          {
+            "start":22,
+            "end":27,
+            "value":"AAPL",
+            "entity":"company"
+          },
+          {
+              "start":12,
+              "end":18,
+              "value":"volume",
+              "entity":"type"
+          },
+          {
+              "start":39,
+              "end":41,
+              "value":"3",
+              "entity":"day"
+          },
+          {
+              "start":36,
+              "end":38,
+              "value":"8",
+              "entity":"month"
+          },
+          {
+              "start":31,
+              "end":35,
+              "value":"2018",
+              "entity":"year"
+          }
+        ]
+      },
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good evening", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "dear sir", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "bye", 
+        "intent": "end", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "end", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "end", 
+        "entities": []
+      }, 
+      {
+        "text": "farewell",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "end",
+        "entities": []
+      }
+    ]
+  }
+}
