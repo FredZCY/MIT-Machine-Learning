@@ -88,10 +88,14 @@ Please click on https://github.com/youfou/wxpy to visit its official Github webp
 To run the program on wechat, please follow the following instructions:
 1. Downdoal all the files in the `Final_Project`
 2. Run the `Chatbot_for_stockmarket (Final).py` on any python IDE  
-```
+
 *`Spyder` is recommended, or you can use `Jupyter` to test the program in seperate blocks*  
-```
+
 3. Part of codes about `wechat friend searching` may need to be specified by yourself  
-4. Scan the generated QR code and start to chat with the Chatbot:simple_smile:  
+4. Scan the generated QR code and start to chat with the Chatbot :simple_smile:  
 
+## Contact the Author  
 
+If you got any enquiries or suggestions, I'm all ears :sunglasses:  
+[Personal E-mail](zhangchenyu555@gmail.com)
+[Academic E-mail](CST1709482@xmu.edu.my)
