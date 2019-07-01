@@ -24,3 +24,11 @@ entities:
   - cuisine : Mexican  
   - location : center  
 ```
+
+Using pip to install Rasa NLU via Python Library From pypi:  
+```
+pip install rasa_nlu
+```
+***For more installation information***  
+Go to https://rasa.com/docs/nlu/installation/  
+
