@@ -29,7 +29,7 @@ Using pip to install Rasa NLU via Python Library From pypi:
 ```
 pip install rasa_nlu
 ```
-**For more installation information of Rasa NLU** 
+**For more installation information of Rasa NLU**  
 Please click on https://rasa.com/docs/nlu/installation/  
 
 ### iexfinance
@@ -45,3 +45,21 @@ The iexfinance is a Python module help you get data for Stocks, ETFs, Mutual Fun
 - Market analysis (gainers, losers, volume, etc.)
 - IEX market data & statistics (IEX supported/listed symbols, volume, etc)
 - Social Sentiment and CEO Compensation
+
+Using pip to install iexfinance via Python Library From pypi (latest stable release): 
+```
+pip3 install iexfinance
+```
+
+An IEX Cloud account is required to acecss the IEX Cloud API. Various plans are availalbe, free, paid, and pay-as-you-go.  
+Your IEX Cloud (secret) authentication token can be passed to any function or at the instantiation of a `Stock` object. The easiest way to store a token is in the `IEX_TOKEN` environment variable.  
+
+**Real-time Quotes**  
+To obtain real-time quotes for one or more symbols, use the `get_price` method of the `Stock` object:  
+```
+from iexfinance.stocks import Stock  
+tsla = Stock('TSLA')  
+tsla.get_price()  
+```
+**Historical Data** 
+It’s possible to obtain historical data using `get_historical_data` and `get_historical_intraday`.
