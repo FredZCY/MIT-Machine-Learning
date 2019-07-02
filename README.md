@@ -102,10 +102,11 @@ my_friend = bot.friends().search('Stockbot Coco')[0]
 4. Scan the generated QR code and start to chat with the Chatbot:relaxed:  
 
 ## Contact the Author  
-
+```
 ***Special thanks*** :pray: to the instruction and advise from  
 
 [Dr. Fan Zhang (张帆)](http://www.mit.edu/~f_zhang/) (Watson Core Platform Service IBM Massachusetts Labratory)  
+```  
 
 If you got any enquiries or suggestions, I'm all ears :sunglasses:  
 
