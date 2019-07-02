@@ -103,7 +103,7 @@ my_friend = bot.friends().search('Stockbot Coco')[0]
 
 ## Contact the Author  
 
-***Special thanks*** :pray: to the instruction and advise from  
+***Special thanks*** :pray: to the instruction and advice from  
 
 *[Dr. Fan Zhang (张帆)](http://www.mit.edu/~f_zhang/) (Watson Core Platform Service IBM Massachusetts Labratory)*  
 
